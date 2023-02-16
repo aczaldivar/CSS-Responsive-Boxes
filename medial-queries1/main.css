@@ -1,3 +1,60 @@
 body {
-  background: blanchedalmond;
+
+ text-align: center;
+ margin:20px;
+ 
 }
+
+
+div{
+display:flex;
+flex-direction: column;
+
+
+
+}
+h2{
+ 
+  font-size:75px;
+}
+header{
+background: rgb(191, 33, 154); 
+line-height: 10px;
+
+}
+main{
+background: green;
+
+}
+footer {
+background:aquamarine;
+
+
+}
+
+
+@media (max-width:700px)
+{
+.BC{
+  display:flex;
+  flex-direction: row;
+}
+header{
+  width:650px;
+}
+main{
+  
+  width: 400px;
+
+}
+footer{
+  width:250px;
+
+}
+ }
+
+  
+
+
+
+

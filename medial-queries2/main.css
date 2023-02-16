@@ -1,3 +1,99 @@
 body {
   background: papayawhip;
+  text-align: center;
+  font-size: 70px;
+  width:800px;
+
 }
+.a{
+  background: green;
+  line-height: 2;
+  width:800px;
+
+}
+.b{
+  background: aquamarine;
+  line-height:300px;
+  width:800px;
+  
+}
+.c{
+  background:pink;
+  width: 275px;
+  height:200px;
+
+}
+.d{
+  background:hotpink;
+  width: 265px;
+  height:200px;
+
+}
+.e{
+  background: blueviolet;
+  width:260px;
+
+}
+.f{
+  background: blue;
+  width:800px;
+  height:100px;
+
+}
+.CDEF{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.CDE {
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+@media (max-width:700px){
+  .a{
+    background: green;
+    line-height: 2;
+    width:600px;
+  
+  }
+  .b{
+    background: aquamarine;
+    line-height:300px;
+    width:450px;
+  } 
+  .c{
+    background:pink;
+    width: 150px;
+    height:200px;
+  
+  }
+  .d{
+    background:hotpink;
+    width:150px;
+    height:200px;
+  
+  }
+  .e{
+    background: blueviolet;
+    width:150px;
+  
+  }
+  .f{
+    background: blue;
+    width:145px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+}
+
+
+
+
+  
+
