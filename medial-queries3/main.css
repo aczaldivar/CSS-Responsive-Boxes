@@ -1,3 +1,110 @@
-body {
+body { 
+ width:700px;
   background: peachpuff;
+}
+div.a{ 
+  width:735px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+ height:150px;
+text-align: center;
+font-size:80px;
+margin:10px;
+
+}
+div.b{
+  width:245px;
+  font-size: 80px;
+  text-align: center;
+  height:150px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+  margin:10px;
+}
+div.c{
+  width:245px;
+  height:150px;
+  text-align:center;
+  font-size:80px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+  margin:10px;
+}
+div.d{
+  width:245px;
+  height:150px;
+  text-align:center;
+  font-size:80px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+  margin:10px;
+}
+.BCD{
+  display:flex;
+  width:735px;
+}
+div.e{
+  width:245px;
+  height:150px;
+  text-align:center;
+  font-size:80px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+  margin:10px;
+}
+div.f{
+  width:245px;
+  height:150px;
+  text-align:center;
+  font-size:80px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+  margin:10px;
+}
+div.g{
+  width:245px;
+  height:150px;
+  text-align:center;
+  font-size:80px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+  margin:10px;
+}
+.EFG{
+  display:flex;
+  width:735px;
+}
+
+div.h{
+  width:735px;
+  background-color: lightgrey;
+  outline:2px solid darkgrey;
+ height:300px;
+text-align: center;
+font-size:80px;
+padding-top: 40px;
+margin:10px;
+}
+
+@media(min-width:700px){
+.BCD{
+  width:530px;
+}
+.EFG{
+  width:530px;
+}
+div.h{
+  position:absolute;
+  right:59px;
+  top:171px;
+  z-index:-1;
+  width: 151px;
+  height: 275px;
+  left:541px;
+  padding-right:30px;
+  padding-left: 20px;
+  padding-top:30px;
+  padding-bottom:15px;
+}
+
 }

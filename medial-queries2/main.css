@@ -2,98 +2,87 @@ body {
   background: papayawhip;
   text-align: center;
   font-size: 70px;
-  width:800px;
+  width:600px;
 
 }
-.a{
-  background: green;
+div.a{
+  background: lightgrey;
   line-height: 2;
-  width:800px;
-
+  width:600px;
+  margin:10px;
+  outline:2px solid darkgrey;
 }
-.b{
-  background: aquamarine;
-  line-height:300px;
-  width:800px;
-  
+div.b{
+  background:lightgrey;
+  line-height:5;
+  width:600px;
+  margin:10px;
+  outline:2px solid darkgrey;
 }
-.c{
-  background:pink;
-  width: 275px;
+div.c{
+  background:lightgrey;
+  width: 200px;
   height:200px;
-
+  margin:10px;
+  outline:2px solid darkgrey;
 }
-.d{
-  background:hotpink;
-  width: 265px;
+div.d{
+  background:lightgrey;
+  width: 200px;
   height:200px;
+  margin:10px;
+  outline:2px solid darkgrey;
+}
+div.e{
+  background:lightgrey;
+  width:200px;
+  height:200px;
+  margin:10px;
+  margin-right:0px;
+  outline:2px solid darkgrey;
+
+
 
 }
-.e{
-  background: blueviolet;
-  width:260px;
-
+div.f{
+  background:lightgrey;
+  width:595px;
+  height:160px;
+  margin-top:15px;
+  margin-left: 13px;
+  outline:2px solid darkgrey;
 }
-.f{
-  background: blue;
-  width:800px;
-  height:100px;
-
+.CDE{
+  display:flex;
+  width:600px;
 }
-.CDEF{
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
-}
-.CDE {
- 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
+div.container{
+  width:500px;
 }
 
-@media (max-width:700px){
-  .a{
-    background: green;
-    line-height: 2;
-    width:600px;
-  
+@media(min-width:700px){
+ div.b{
+  width:435px;
+ }
+ .CDEF{
+  width:300px;
+  display:flex;
+  flex-direction: column;
+
+ }
+div.f{
+  position:absolute;
+  right:1px;
+  top:146px;
+  z-index:-1;
+  width: 151px;
+  height: 568px;
+  left: 457px;
+}
+div.CDE{
+  width:450px;
+}
   }
-  .b{
-    background: aquamarine;
-    line-height:300px;
-    width:450px;
-  } 
-  .c{
-    background:pink;
-    width: 150px;
-    height:200px;
   
-  }
-  .d{
-    background:hotpink;
-    width:150px;
-    height:200px;
-  
-  }
-  .e{
-    background: blueviolet;
-    width:150px;
-  
-  }
-  .f{
-    background: blue;
-    width:145px;
-    height:200px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap:nowrap;
-}
-}
 
-
-
-
-  
 
